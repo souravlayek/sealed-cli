@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/99designs/keyring"
-	"github.com/souravlayek/sealed/constants"
+	"github.com/souravlayek/sealed-cli/constants"
 )
 
 type Keys struct {

@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/souravlayek/sealed/pkg/keymanager"
-	"github.com/souravlayek/sealed/utils"
+	"github.com/souravlayek/sealed-cli/pkg/keymanager"
+	"github.com/souravlayek/sealed-cli/utils"
 )
 
 type KeyValuePair struct {

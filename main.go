@@ -7,10 +7,10 @@ import (
 	"os/exec"
 	"slices"
 
-	loginmanager "github.com/souravlayek/sealed/pkg/loginManager"
-	sealedservercomms "github.com/souravlayek/sealed/pkg/sealedServerComms"
-	secretsmanager "github.com/souravlayek/sealed/pkg/secretsManager"
-	"github.com/souravlayek/sealed/utils"
+	loginmanager "github.com/souravlayek/sealed-cli/pkg/loginManager"
+	sealedservercomms "github.com/souravlayek/sealed-cli/pkg/sealedServerComms"
+	secretsmanager "github.com/souravlayek/sealed-cli/pkg/secretsManager"
+	"github.com/souravlayek/sealed-cli/utils"
 )
 
 func main() {

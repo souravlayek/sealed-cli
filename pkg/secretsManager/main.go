@@ -5,7 +5,7 @@ import (
 	"os"
 	"os/exec"
 
-	sealedservercomms "github.com/souravlayek/sealed/pkg/sealedServerComms"
+	sealedservercomms "github.com/souravlayek/sealed-cli/pkg/sealedServerComms"
 )
 
 func SetEnvVariables(pairs []sealedservercomms.KeyValuePair) {

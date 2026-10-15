@@ -1,4 +1,4 @@
-module github.com/souravlayek/sealed
+module github.com/souravlayek/sealed-cli
 
 go 1.27.1
 

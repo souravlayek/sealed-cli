@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/souravlayek/sealed/pkg/keymanager"
-	sealedservercomms "github.com/souravlayek/sealed/pkg/sealedServerComms"
+	"github.com/souravlayek/sealed-cli/pkg/keymanager"
+	sealedservercomms "github.com/souravlayek/sealed-cli/pkg/sealedServerComms"
 )
 
 func Login() {
