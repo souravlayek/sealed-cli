@@ -73,8 +73,8 @@ changelog:
 release:
   github:
     owner: souravlayek
-    name: sealed
-  name_template: "sealed-cli {{ .Version }}"
+    name: sealed-cli
+  name_template: "{{ .Version }}"
 
 homebrew_casks:
   - name: sealed
