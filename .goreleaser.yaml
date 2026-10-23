@@ -8,7 +8,7 @@ before:
 
 builds:
   - id: sealed-darwin
-    main: .
+    main: ./cmd/sealed
     binary: sealed
     env:
       - CGO_ENABLED=1
@@ -23,8 +23,9 @@ builds:
       - -X main.commit={{.ShortCommit}}
       - -X main.date={{.Date}}
       - -X main.defaultServerURL=https://api-sealed.souravlayek.com
+
   - id: sealed-other
-    main: .
+    main: ./cmd/sealed
     binary: sealed
     env:
       - CGO_ENABLED=0
